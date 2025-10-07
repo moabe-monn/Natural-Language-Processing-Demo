@@ -59,4 +59,5 @@ trainer.train()
 trainer.save_model("./t5-japanese-summary-finetuned")
 tokenizer.save_pretrained("./t5-japanese-summary-finetuned")
 
-print("ファインチューニング完了 ✅")
+print("ファインチューニング完了 ")
+
